@@ -1,8 +1,9 @@
 require 'spec_helper'
 
-def loop_message_five_times("Hello World.") 
-  array.length
-  #=>5
-end
- 
+def loop_message_five_times(message)
+  count = 0
+  while count < 5 do
+    puts message
+    count += 1
+  end
 end
