@@ -1,3 +1,4 @@
 require 'spec_helper'
 
-def 
+def loop_message_five_times(message) 
+  
