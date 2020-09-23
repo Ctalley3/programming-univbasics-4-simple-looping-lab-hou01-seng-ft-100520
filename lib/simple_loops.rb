@@ -1,1 +1,3 @@
-def method_name
+require 'spec_helper'
+
+def 
